@@ -23,7 +23,7 @@ if (!isset($page)) {
 
 <head>
     <meta charset="utf-8">
-    <title>KYMF Portafolio</title>
+    <title>Portafolio kymf</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="¿Necesitas una página web? Este es el sitio web que tanto buscabas" name="keywords">
     <meta content="¿Necesitas una página web? Necesitas conocer este portafolio" name="description">
