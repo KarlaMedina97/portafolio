@@ -1,7 +1,20 @@
+/** Font upload*/
+@font-face {
+    font-family: 'fuente_prueba';
+    src: url('../css/font_a_sumpah_masih_muda/aSumpahMasihMuda.ttf') format("truetype");
+    font-weight:normal;
+    font-size: 150px;
+
+ }
+
+.container-xxl{
+    background-color: #2f3058;
+}
+
 /********** Template CSS **********/
 :root {
-    --primary: #2124B1;
-    --secondary: #4777F5;
+    --primary: #4b4b68;
+    --secondary: #6f98ff;
     --light: #F7FAFF;
     --dark: #1D1D27;
 }
@@ -238,7 +251,7 @@ h6,
     height: 10px;
     top: 2px;
     left: 0;
-    background: rgba(33, 66, 177, .5);
+    background: #2f3058;
 }
 
 .section-title h6::after {
@@ -457,13 +470,12 @@ h6,
 
 
 /*** Footer ***/
-.footer {
-    background: url(../img/footer.png) center center no-repeat;
-    background-size: contain;
+.footer-bg {
+    background-color: #2f3058;
 }
 
 .footer .btn.btn-social {
-    margin-right: 5px;
+    margin-right: 20px;
     width: 40px;
     height: 40px;
     display: flex;
@@ -476,7 +488,11 @@ h6,
 }
 
 .footer .btn.btn-social:hover {
-    color: var(--primary);
+    color: #9191f0;
+}
+
+.ft-style{
+    justify-content: center;
 }
 
 .footer .btn.btn-link {
@@ -510,12 +526,6 @@ h6,
 
 .footer .copyright a {
     color: var(--light);
-}
-
-.footer .footer-menu a {
-    margin-right: 15px;
-    padding-right: 15px;
-    border-right: 1px solid rgba(255, 255, 255, .1);
 }
 
 .footer .footer-menu a:last-child {

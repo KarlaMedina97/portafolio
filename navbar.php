@@ -13,8 +13,7 @@
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="m-0"><i class="fa fa-search me-2"></i>Bienvenido<span class="fs-5">Master</span></h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                    <h1 style="font-family:'Lucida Bright';" class="m-0">Portafolio <span style="font-family:'Lucida Bright';" class="fs-5"> kymf</span></h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -22,20 +21,15 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
                         <a href="?page=main" class="nav-item nav-link">Inicio</a>
-                        <a href="?page=portafolio" class="nav-item nav-link">Portafolio</a>
-                        <a href="?page=service" class="nav-item nav-link">Servicios</a>
-                        <a href="?page=projects" class="nav-item nav-link">Proyectos</a>
+                        <a href="?page=main#gallery" class="nav-item nav-link">Galeria</a>
+                        <a href="?page=main#service" class="nav-item nav-link">Servicios</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Extra</a>
                             <div class="dropdown-menu m-0">
-                                <a href="?page=bio" class="dropdown-item">Biografía</a>
-                                <a href="?page=testimonial" class="dropdown-item">Testimonios</a>
                                 <a href="?page=404" class="dropdown-item active">404 Page</a>
                             </div>
                         </div>
                         <a href="?page=contact" class="nav-item nav-link">Contacto</a>
                     </div>
-                    <butaton type="button" class="btn text-secondary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
-                    <a href="#" class="btn btn-secondary text-light rounded-pill py-2 px-4 ms-3">Pro Version</a>
                 </div>
             </nav>
