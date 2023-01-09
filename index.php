@@ -25,11 +25,11 @@ if (!isset($page)) {
     <meta charset="utf-8">
     <title>Portafolio kymf</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="¿Necesitas una página web? Este es el sitio web que tanto buscabas" name="keywords">
+    <meta content="¿Necesitas una página web? Este es el sitio web que tanto buscabas, desarrollo web" name="keywords">
     <meta content="Bienvenido a mi portafolio, aquí encontrarás más información sobre mí." name="description">
 
     <!-- icon -->
-    <link href="img/folder_3.png" rel="icon">
+    <link href="img/img_code.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

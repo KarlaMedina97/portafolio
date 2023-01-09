@@ -8,9 +8,6 @@
                 <a href="#gallery" class="btn btn-dark py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Galeria</a>
                 <a href="?page=contact" class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contacto</a>
             </div>
-            <!-- <div class="col-lg-6 text-center text-lg-start">
-                <img class="img-fluid" style="border-radius: 25em; width:450px;" src="img/img_4.png" alt="img">
-            </div> -->
         </div>
     </div>
 </div>

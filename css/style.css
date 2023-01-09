@@ -8,7 +8,7 @@
  }
 
 .container-xxl{
-    background-color: #55555ee1;
+    background-color: #1a1a20a4;
 }
 
 .container-hd{
@@ -22,7 +22,7 @@
 
 /********** Template CSS **********/
 :root {
-    --primary:  #0f0b35d7;
+    --primary:  #050414ef;
     --secondary:  #03031f;
     --light: #F7FAFF;
     --dark: #1D1D27;
@@ -85,7 +85,7 @@ h6,
 
 .btn-hd i:hover{
     font-size:36px;
-    color: #151542c7;
+    color: #cacadac7;
 }
 
 .btn-square {
@@ -216,6 +216,12 @@ h6,
     }
 }
 
+/** text contact*/
+nav ol li a.txt-sdw{
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color:#DDDDDD;
+}
+/** text contact end*/
 
 /*** Section Title ***/
 .section-title::before {
@@ -476,7 +482,7 @@ h6,
 
 /*** Footer ***/
 .footer-bg {
-    background-color: #2f3058;
+    background-color: #10111fe1;
 }
 
 .footer .btn.btn-social {
