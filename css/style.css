@@ -1,11 +1,10 @@
 /** Font upload*/
-@font-face {
-    font-family: 'fuente_prueba';
-    src: url('../css/font_a_sumpah_masih_muda/aSumpahMasihMuda.ttf') format("truetype");
-    font-weight:normal;
-    font-size: 150px;
-
- }
+div img.img_icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+    margin-top: 20px;
+}
 
 .container-xxl{
     background-color: #1a1a20a4;
@@ -84,7 +83,6 @@ h6,
 }
 
 .btn-hd i:hover{
-    font-size:36px;
     color: #cacadac7;
 }
 
@@ -285,7 +283,7 @@ nav ol li a.txt-sdw{
     background: var(--primary);
 }
 
-.service-item .service-icon {
+/* .service-item .service-icon {
     margin: 0 auto 20px auto;
     width: 90px;
     height: 90px;
@@ -295,12 +293,12 @@ nav ol li a.txt-sdw{
     color: var(--light);
     background: url(../img/icon-shape-primary.png) center center no-repeat;
     transition: .5s;
-}
-
+} */
+/* 
 .service-item:hover .service-icon {
     color: var(--primary);
     background: url(../img/icon-shape-white.png);
-}
+} */
 
 .service-item h5,
 .service-item p {
@@ -340,77 +338,6 @@ nav ol li a.txt-sdw{
 .service-item:hover a.btn::before {
     width: 100%;
     background: var(--light);
-}
-
-
-/*** Testimonial ***/
-.newsletter,
-.testimonial {
-    background:
-        url(../img/bg-top.png),
-        url(../img/bg-bottom.png);
-    background-position:
-        left top,
-        right bottom;
-    background-repeat: no-repeat;
-}
-
-.testimonial-carousel .owl-item .testimonial-item,
-.testimonial-carousel .owl-item.center .testimonial-item * {
-    transition: .5s;
-}
-
-.testimonial-carousel .owl-item.center .testimonial-item {
-    background: var(--light) !important;
-    border-color: var(--light);
-}
-
-.testimonial-carousel .owl-item.center .testimonial-item * {
-    color: #888888;
-}
-
-.testimonial-carousel .owl-item.center .testimonial-item i {
-    color: var(--primary) !important;
-}
-
-.testimonial-carousel .owl-item.center .testimonial-item h6 {
-    color: var(--dark) !important;
-}
-
-
-/*** Team ***/
-.team-item {
-    position: relative;
-    transition: .5s;
-    z-index: 1;
-}
-
-.team-item::after {
-    position: absolute;
-    content: "";
-    top: 3rem;
-    right: 3rem;
-    bottom: 0;
-    left: 0;
-    border-radius: 10px;
-    background: #FFFFFF;
-    box-shadow: 0 0 45px rgba(0, 0, 0, .1);
-    transition: .5s;
-    z-index: -1;
-}
-
-.team-item:hover::after {
-    background: var(--primary);
-}
-
-.team-item h5,
-.team-item small {
-    transition: .5s;
-}
-
-.team-item:hover h5,
-.team-item:hover small {
-    color: var(--light);
 }
 
 
@@ -499,7 +426,7 @@ nav ol li a.txt-sdw{
 }
 
 .footer .btn.btn-social:hover {
-    color: #9191f0;
+    color: #18181f;
 }
 
 .ft-style{

@@ -21,16 +21,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="?page=main" class="nav-item nav-link">Inicio</a>
-                    <a href="?page=main#gallery" class="nav-item nav-link">Galeria</a>
+                    <a href="?page=main#home" class="nav-item nav-link">Inicio</a>
+                    <a href="?page=main#about" class="nav-item nav-link">Sobre mí</a>
                     <a href="?page=main#service" class="nav-item nav-link">Servicios</a>
-                    <!-- <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Extra</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="?page=404" class="dropdown-item active">404 Page</a>
-                        </div>
-                    </div> -->
-                    <a href="?page=contact" class="nav-item nav-link">Contacto</a>
+                    <a href="?page=main#gallery" class="nav-item nav-link">Galeria</a>
+                    <a href="?page=main#contact" class="nav-item nav-link">Contacto</a>
                 </div>
             </div>
         </nav>

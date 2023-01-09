@@ -1,5 +1,5 @@
 <!-- Section Start -->
-<div class="container-hd py-5">
+<div id="home" class="container-hd py-5">
     <div class="container my-5 py-5 px-lg-5">
         <div class="row g-5 py-5">
             <div class="col-lg-12 text-center">
@@ -14,29 +14,30 @@
 <!-- Section End -->
 
 <!-- About Start -->
-<div class="container-xxl py-5">
+<div id="about" class="container-xxl py-5">
     <div class="container px-lg-5">
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div id="about" class="section-title position-relative mb-4 pb-2">
-                    <!-- <h6 class="position-relative text-primary ps-4">Sobre mí</h6> -->
-                    <h2 class="mt-2">Karla Medina</h2>
+                <div class="section-title text-center position-relative mb-4 pb-2">
+                    <h2 class="mt-3">Karla Medina</h2>
+                    <p class="text-white">Desarrolladora web</p>
                 </div>
-                <p class="mb-4 text-white">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                <p class="mb-4 text-white">Aplico tecnologías para el desarrollo y diseño de páginas web en un entorno amigable e intuitivo para el usuario.</p>
                 <div class="row g-3">
-                    <div class="col-sm-6">
-                        <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Award Winning</h6>
-                        <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Professional Staff</h6>
-                    </div>
-                    <div class="col-sm-6">
-                        <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>24/7 Support</h6>
-                        <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Fair Prices</h6>
+                    <h4 class="mt-1">Habilidades</h4>
+                    <div class="col-sm-12 text-center">
+                        <img class="img-fluid wow zoomIn img_icon" data-wow-delay="0.5s" src="img/css.png">
+                        <img class="img-fluid wow zoomIn img_icon" data-wow-delay="0.5s" src="img/html.png">
+                        <img class="img-fluid wow zoomIn img_icon" data-wow-delay="0.5s" src="img/php.png">
+                        <img class="img-fluid wow zoomIn img_icon" data-wow-delay="0.5s" src="img/.net.png">
+                        <img class="img-fluid wow zoomIn img_icon" data-wow-delay="0.5s" src="img/mysql.png">
+                        <img class="img-fluid wow zoomIn img_icon" data-wow-delay="0.5s" src="img/sql.png">
                     </div>
                 </div>
                 
             </div>
             <div class="col-lg-6">
-                <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/img_1.jpg">
+                <img class="img-fluid wow zoomIn" style="border-radius: 35px;" data-wow-delay="0.5s" src="img/code_img.jpeg">
             </div>
         </div>
     </div>
@@ -48,7 +49,6 @@
 <div class="container-xxl py-5">
     <div class="container px-lg-5">
         <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
-            <!-- <h6 class="position-relative d-inline text-primary ps-4">Our Services</h6> -->
             <h2 class="mt-2">Servicios</h2>
         </div>
         <div id="service" class="row g-4">
@@ -59,7 +59,6 @@
                     </div>
                     <h5 class="mb-3">SEO Optimization</h5>
                     <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                    <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -69,7 +68,6 @@
                     </div>
                     <h5 class="mb-3">Web Design</h5>
                     <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                    <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -79,7 +77,6 @@
                     </div>
                     <h5 class="mb-3">Social Media Marketing</h5>
                     <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                    <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
@@ -89,7 +86,6 @@
                     </div>
                     <h5 class="mb-3">Email Marketing</h5>
                     <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                    <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -99,7 +95,6 @@
                     </div>
                     <h5 class="mb-3">PPC Advertising</h5>
                     <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                    <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -109,7 +104,6 @@
                     </div>
                     <h5 class="mb-3">App Development</h5>
                     <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                    <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
                 </div>
             </div>
         </div>
@@ -119,18 +113,18 @@
 
 
 <!-- Gallery Start -->
-<div class="container-xxl py-5">
+<div id="gallery"  class="container-xxl py-5">
     <div class="container px-lg-5">
         <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
             <!-- <h6 class="position-relative d-inline text-primary ps-4">Our Projects</h6> -->
-            <h2 class="mt-2">Recently Launched Projects</h2>
+            <h2 class="mt-2">Galeria</h2>
         </div>
-        <div id="gallery" class="row mt-n2 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.1s">
             <div class="col-12 text-center">
                 <ul class="list-inline mb-5" id="portfolio-flters">
-                    <li class="btn px-3 pe-4 active" data-filter="*">All</li>
-                    <li class="btn px-3 pe-4" data-filter=".first">Design</li>
-                    <li class="btn px-3 pe-4" data-filter=".second">Development</li>
+                    <li class="btn px-3 pe-4 active" data-filter="*">Todo</li>
+                    <li class="btn px-3 pe-4" data-filter=".first">Diseño</li>
+                    <li class="btn px-3 pe-4" data-filter=".second">Desarrollo</li>
                 </ul>
             </div>
         </div>
