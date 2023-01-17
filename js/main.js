@@ -107,3 +107,10 @@
     
 })(jQuery);
 
+// btn descargar
+
+// function download() {
+//     ({url:'../cv/Karla Medina CV.pdf',
+//     method: 'GET',
+//     responseType: 'blob'
+// })

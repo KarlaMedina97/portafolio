@@ -6,8 +6,13 @@ div img.img_icon{
     margin-top: 20px;
 }
 
+div.target img{
+    height: 170px;
+}
+
 .container-xxl{
-    background-color: #1a1a20a4;
+    background-color: #ffffffa4;
+    /* 1a1a20a4 */
 }
 
 .container-hd{
@@ -15,14 +20,15 @@ div img.img_icon{
     url(../img/fondo-hd.jpg);
     background-position:center ;
     background-repeat: no-repeat;
-    margin-bottom: 80px;
+    height: 700px;
+    margin-bottom: 50px;
     opacity: 1;
 }
 
 /********** Template CSS **********/
 :root {
     --primary:  #050414ef;
-    --secondary:  #03031f;
+    --secondary:  #a2a2ac;
     --light: #F7FAFF;
     --dark: #1D1D27;
 }
@@ -84,6 +90,13 @@ h6,
 
 .btn-hd i:hover{
     color: #cacadac7;
+}
+
+.btn-dwn{
+    border-radius: 14px;
+    width: auto;
+    font-style: var(--dark);
+    font-size: 20px;
 }
 
 .btn-square {
@@ -275,7 +288,7 @@ nav ol li a.txt-sdw{
     height: 350px;
     padding: 30px 25px;
     background: #FFFFFF;
-    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.274);
     transition: .5s;
 }
 
