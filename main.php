@@ -32,9 +32,10 @@
                         <img class="img-fluid wow zoomIn img_icon" data-wow-delay="0.5s" src="img/css.png">
                         <img class="img-fluid wow zoomIn img_icon" data-wow-delay="0.5s" src="img/html.png">
                         <img class="img-fluid wow zoomIn img_icon" data-wow-delay="0.5s" src="img/php.png">
-                        <img class="img-fluid wow zoomIn img_icon" data-wow-delay="0.5s" src="img/.net.png">
+                        <img class="img-fluid wow zoomIn img_icon" data-wow-delay="0.5s" src="img/net.png">
                         <img class="img-fluid wow zoomIn img_icon" data-wow-delay="0.5s" src="img/mysql.png">
                         <img class="img-fluid wow zoomIn img_icon" data-wow-delay="0.5s" src="img/sql.png">
+                        <img class="img-fluid wow zoomIn img_icon" data-wow-delay="0.5s" src="img/js.png">
                     </div>
                 </div>
                 
@@ -73,15 +74,6 @@
                     <p>Consigue una excelente experiencia con la interfaz de tu sitio.</p>
                 </div>
             </div>
-            <!-- <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-                <div class="service-item d-flex flex-column justify-content-center text-center rounded">
-                    <div class="service-icon flex-shrink-0">
-                        <i class="fa fa-home fa-2x"></i>
-                    </div>
-                    <h5 class="mb-3">Social Media Marketing</h5>
-                    <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                </div>
-            </div> -->
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
                 <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                     <div class="service-icon flex-shrink-0">
