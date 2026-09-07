@@ -1,22 +1,23 @@
 <?php
-session_start();
-error_reporting(0);
-extract($_REQUEST);
+header('X-Content-Type-Options: nosniff');
+header('X-Frame-Options: SAMEORIGIN');
+header('Referrer-Policy: strict-origin-when-cross-origin');
 
-//funcion para el manejo de login sencillo si es necesario
-if (isset($_SESSION['user'])) {
-    $ruta = "../../";
-} else {
-    $ruta = "";
+$pages = [
+    'main' => 'main.php',
+    'contact' => 'contact.php',
+    '404' => '404.php',
+];
+
+$requestedPage = filter_input(INPUT_GET, 'page', FILTER_SANITIZE_SPECIAL_CHARS);
+$page = is_string($requestedPage) && isset($pages[$requestedPage]) ? $requestedPage : 'main';
+
+if ($requestedPage !== null && (!is_string($requestedPage) || !isset($pages[$requestedPage]))) {
+    http_response_code(404);
+    $page = '404';
 }
 
-//funcion para el manejo de plantillas
-
-if (!isset($page)) {
-    $pagina = "main.php";
-} else {
-    $pagina = $page . ".php";
-}
+$pageFile = __DIR__ . '/' . $pages[$page];
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -53,15 +54,14 @@ if (!isset($page)) {
 </head>
 
 <body>
-    <div class="site-wrap"> 
-        <?php include $ruta . "navbar.php" ?>
-        <main id="main"><?php include $pagina ?></main>
-        <?php include $ruta . "footer.php" ?>
+    <div class="site-wrap">
+        <?php require __DIR__ . '/navbar.php'; ?>
+        <main id="main"><?php require $pageFile; ?></main>
+        <?php require __DIR__ . '/footer.php'; ?>
     </div>
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-dark btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
-    </div>
+    <!-- Back to Top -->
+    <a href="#main" class="btn btn-lg btn-dark btn-lg-square back-to-top pt-2" aria-label="Volver arriba"><i class="bi bi-arrow-up" aria-hidden="true"></i></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

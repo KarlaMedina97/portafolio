@@ -7,7 +7,9 @@ div img.img_icon{
 }
 
 div.target img{
+    width: 100%;
     height: 170px;
+    object-fit: cover;
 }
 
 .container-xxl{
@@ -93,10 +95,25 @@ h6,
 }
 
 .btn-dwn{
+    display: inline-block;
+    padding: 10px 18px;
     border-radius: 14px;
     width: auto;
-    font-style: var(--dark);
+    color: var(--dark);
     font-size: 20px;
+    text-decoration: none;
+}
+
+.btn-dwn:hover,
+.btn-dwn:focus-visible {
+    color: var(--light);
+    background-color: var(--dark);
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid #f0b429;
+    outline-offset: 3px;
 }
 
 .btn-square {
@@ -150,6 +167,15 @@ div.navbar-nav{
     color: var(--secondary) !important;
 }
 
+.language-toggle {
+    margin-left: 25px;
+    padding: 6px 10px !important;
+    border: 1px solid currentColor;
+    background: transparent;
+    font: inherit;
+    cursor: pointer;
+}
+
 .navbar-light .navbar-brand h1 {
     color: #FFFFFF;
 }
@@ -179,6 +205,11 @@ div.navbar-nav{
         padding: 10px 0;
         margin-left: 0;
         color: var(--dark) !important;
+    }
+
+    .language-toggle {
+        margin-top: 10px;
+        margin-left: 0;
     }
 
     .navbar-light .navbar-brand h1 {
@@ -429,6 +460,14 @@ nav ol li a.txt-sdw{
     background-color: #10111fe1;
 }
 
+.footer-bg a {
+    color: #ffd166;
+}
+
+.footer-bg a:hover {
+    color: #fff3bf;
+}
+
 .footer .btn.btn-social {
     margin-right: 20px;
     width: 40px;
@@ -487,4 +526,15 @@ nav ol li a.txt-sdw{
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
 }
