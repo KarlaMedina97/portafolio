@@ -1,6 +1,6 @@
 # Portafolio de Karla Medina
 
-Sitio web personal de Karla Medina, desarrolladora web. El proyecto presenta información profesional, habilidades, servicios, trabajos realizados y datos de contacto.
+Sitio web personal de mi autoría Karla Medina, desarrolladora web. El proyecto presenta información profesional, habilidades, servicios, trabajos realizados y datos de contacto.
 
 ## Evaluación
 
