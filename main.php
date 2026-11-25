@@ -37,6 +37,21 @@
                         <img class="img-fluid wow zoomIn img_icon" data-wow-delay="0.5s" src="img/sql.png" alt="SQL Server">
                         <img class="img-fluid wow zoomIn img_icon" data-wow-delay="0.5s" src="img/js.png" alt="JavaScript">
                     </div>
+                    <ul class="col-sm-12 text-center skill-tags wow fadeInUp" data-wow-delay="0.6s">
+                        <li>Python</li>
+                        <li>Node.js</li>
+                        <li>SCSS</li>
+                        <li>Bootstrap</li>
+                        <li>jQuery / AJAX</li>
+                        <li>MVC</li>
+                        <li>PDO</li>
+                        <li>PWA</li>
+                        <li>Web Bluetooth</li>
+                        <li>Supabase</li>
+                        <li>Git / GitHub</li>
+                        <li>GitHub Actions</li>
+                        <li>Accesibilidad (WCAG)</li>
+                    </ul>
                 </div>
                 
             </div>
